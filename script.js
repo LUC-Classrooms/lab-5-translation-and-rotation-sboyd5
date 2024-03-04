@@ -17,7 +17,7 @@ function draw() {
   translate(width/2, height/2); // change these arguments
   
   //add an if() statement here
-  if(MouseIsPressed){
+  if(mouseIsPressed){
     rotate(PI/2)
   } else {
     rotate(0);
